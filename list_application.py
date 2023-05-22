@@ -1,0 +1,10 @@
+a=["Apple", "Banana", "CaT", "dog"]
+print(a[1])
+del(a[1])
+b=input()
+a.insert(2,b)
+a.append("Yeeee")
+print(a)
+del(a[0])
+del(a[3])
+print(a)
